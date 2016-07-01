@@ -12,7 +12,7 @@ namespace NeuralNetwork.Tests
         [TestMethod]
         public void AssessTest()
         {
-            // Arramge
+            // Arrange
             Neuron n = new Neuron();
             n.Weights = new double[] { 1, 2, 0.5, 0.25 };
 
