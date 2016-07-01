@@ -108,7 +108,6 @@ namespace NeuralNetwork.Tests
             };
 
             neuralNet.ClassifyMany(inputs, desired, 500000);
-            var actual = inputs.Select(x => neuralNet.Assess(x).First());
 
             for (int i = 0; i < inputs.Length; i++)
             {
